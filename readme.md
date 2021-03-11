@@ -1,16 +1,19 @@
 # Collections Up Close
-A WordPress custom theme developed for the Fitzwilliam Museum Conservation Blog
+A WordPress custom theme developed for the Fitzwilliam Museum Conservation Blog. The theme aims to bring the blog up to current standards of accessibility and ease-of-use, while allowing the rich current and future content of both text and image to shine. Priorities include responsive mobile-friendly design, and more attention paid to guiding our users towards other posts that they may be interested in.
+
+### Images
+![screenshot of a wordpress blog landing page](images/wp-readme-one.jpg)
+
+![screenshot of a wordpress blog post](images/wp-readme-two.jpg)
+
+![screenshot of a wordpress blog about page](images/wp-readme-three.jpg)
+
 
 ### Installation
 
 1. In your WordPress admin panel, go to Appearance > Themes and click the Add New button.
 2. Click Upload Theme and Choose File, then select the theme's .zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
-
-### Frequently Asked Questions
-
-##### Does this theme support any plugins?
-Collections Up Close includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 ### Changelog
 
