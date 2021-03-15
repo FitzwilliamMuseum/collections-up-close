@@ -493,7 +493,7 @@ hr {
 
 ul,
 ol {
-	margin: 0 0 1.5em 3em;
+	margin: 0 0 1.5em 1.5em;
 }
 
 ul {
@@ -1169,6 +1169,7 @@ h3 {
   font-style: normal;
   font-size: 22px;
   color: #A03335;
+	margin-bottom: 16px;
 }
 
 h4 {
@@ -1196,7 +1197,7 @@ h6 {
   font-weight: 500;
 }
 
-p {
+p, ul {
   font-family: "Lora";
   font-weight: 400;
   font-style: normal;
