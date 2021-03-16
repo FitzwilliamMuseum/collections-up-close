@@ -1197,7 +1197,7 @@ h6 {
   font-weight: 500;
 }
 
-p, ul {
+p, ul, ol {
   font-family: "Lora";
   font-weight: 400;
   font-style: normal;
