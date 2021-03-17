@@ -1286,12 +1286,13 @@ td {
 }
 
 .hero-logo {
-  margin-top: 80px;
+  margin-top: 48px;
   width: 100vw;
 }
 
 .recent-posts-title {
   margin: 24px auto 12px auto;
+	text-align: center;
 }
 
 .row {
@@ -1314,7 +1315,7 @@ td {
   height: 160px;
 }
 
-img.card-image-image {
+img.wp-post-image {
   border-radius: 2px 2px 0 0;
   width: 318px;
   height: 160px;
@@ -1340,6 +1341,10 @@ img.card-image-image {
 
 .card-content {
   padding: 12px;
+	display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 331px
 }
 
 p.card-text {

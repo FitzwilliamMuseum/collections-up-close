@@ -25,11 +25,12 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'collections-up-close' ); ?></a>
 
+
 	<header>
 	 <div class="title">
 
 
-		 <a href="index.html"><h1>Collections Up Close</h1></a>
+		 <a href="index.html"><h1 <?php if(is_front_page()) echo 'id="index-header"' ?>>Collections Up Close</h1></a>
 
 		</div>
 		<div>

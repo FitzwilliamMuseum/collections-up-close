@@ -17,38 +17,47 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-		<?php
-		if ( have_posts() ) :
 
-			if ( is_home() && ! is_front_page() ) :
-				?>
-				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
-				<?php
-			endif;
+	<!-- Hero Section  -->
+	<div class="hero">
+	  <img src="<?php echo get_bloginfo('template_url') ?>/images/hero_logo.jpg" class="hero-logo">
+	  </div>
 
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
 
-				/*
-				 * Include the Post-Type-specific template for the content.
-				 * If you want to override this in a child theme, then include a file
-				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
-				 */
-				get_template_part( 'template-parts/content', get_post_type() );
+	<!-- Recent Posts  -->
+	  <div class="recent-posts-title">
+	    <h2>
+	   	 Recent Posts
+	  	</h2>
+	  </div>
 
+		<div class="row recent-posts">
+			<?php
+			while(have_posts()) :  the_post();
+			?>
+			<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+			<div class="column">
+	      <a href="<?php the_permalink(); ?>">
+		      <div class="card">
+		        <div class="card-image">
+		          <?php the_post_thumbnail( 'medium_large' ); ?>
+		        </div>
+		        <div class="card-content">
+		          <h5 class="card-title"><?php the_title(); ?></h5>
+		          <h6 class="card-subtitle"><?php the_author(); ?></h6>
+		          <h6 class="card-subtitle"><?php the_date(); ?></h6>
+		          <?php the_excerpt(); ?>
+		          <a href="<?php the_permalink(); ?>" class="card-link">Continue reading...</a>
+		        </div>
+		    	</div>
+	      </a>
+	  	</div>
+
+
+			<?php
 			endwhile;
-
-			the_posts_navigation();
-
-		else :
-
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
+			?>
+			</div>
 
 	</main><!-- #main -->
 
