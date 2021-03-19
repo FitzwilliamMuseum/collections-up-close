@@ -788,13 +788,13 @@ textarea {
 
 /* Widgets
 --------------------------------------------- */
-.widget {
+/* .widget {
 	margin: 0 0 1.5em;
 }
 
 .widget select {
 	max-width: 100%;
-}
+} */
 
 /* Media
 --------------------------------------------- */
@@ -1572,6 +1572,25 @@ footer a {
 footer a:hover {
   color: #f3f3f3;
 }
+
+/* Sidebar */
+.widget-title {
+	margin-bottom: 28px;
+}
+
+#tag_cloud-2 {
+	background-color: #f3f3f3;
+	width: 100vw;
+	text-align: center;
+	padding: 36px;
+}
+
+.tagcloud {
+	max-width: 560px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 @media only screen and (max-width: 620px) {
   header h1 {
