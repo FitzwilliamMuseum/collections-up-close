@@ -53,11 +53,15 @@ get_header();
 	      </a>
 	  	</div>
 
-
 			<?php
 			endwhile;
 			?>
 			</div>
+
+
+						<div class="navigation">
+							<div class="alignright"><?php next_posts_link('View More','') ?></div>
+						</div>
 
 	</main><!-- #main -->
 
