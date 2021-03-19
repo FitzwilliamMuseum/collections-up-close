@@ -570,13 +570,14 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
+	padding: 12px 16px;
 	border: 1px solid;
 	border-color: #ccc #ccc #bbb;
 	border-radius: 3px;
 	background: #e6e6e6;
 	color: rgba(0, 0, 0, 0.8);
 	line-height: 1;
-	padding: 0.6em 1em 0.4em;
+	font-family: 'Cabin';
 }
 
 button:hover,
@@ -617,6 +618,7 @@ textarea {
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	padding: 3px;
+  font-family: 'Cabin';
 }
 
 input[type="text"]:focus,
@@ -1452,7 +1454,7 @@ input[type=email] {
 
 input[type=submit] {
   font-size: 14px;
-  padding: 8px 16px;
+  padding: 12px 16px;
   background-color: #F3F3F3;
   margin: 8px 2px;
   border: 2px solid #696869;
