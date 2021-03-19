@@ -1531,7 +1531,7 @@ figcaption {
 
 .wp-block-gallery figcaption {
     flex-grow: inherit;
-
+}
 
 footer {
   display: flex;
