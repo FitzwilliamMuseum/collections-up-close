@@ -1339,6 +1339,31 @@ img.wp-post-image {
   z-index: -1;
 }
 
+.category-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #FFFBF4;
+  border: 2px solid #696869;
+  border-radius: 4px;
+  z-index: -1;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category-card:active {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(4px);
+  z-index: -1;
+}
+
+.category-card-image {
+  width: 100%;
+  height: 140px;
+	overflow: hidden;
+}
+
+.category-card-title {
+	font-size: 18px;
+}
+
 .card-content {
   padding: 12px;
 	display: flex;
@@ -1575,7 +1600,7 @@ footer a:hover {
 
 /* Sidebar */
 .widget-title {
-	margin-bottom: 28px;
+	margin-bottom: 14px;
 }
 
 #tag_cloud-2 {
