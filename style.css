@@ -758,10 +758,10 @@ textarea {
 	display: block;
 }
 
-.post,
+/* .post,
 .page {
 	margin: 0 0 1.5em;
-}
+} */
 
 .updated:not(.published) {
 	display: none;
@@ -1240,7 +1240,7 @@ td {
 }
 
 .about-image {
-  background-image: url(flavia.jpg);
+  background-image: url(images/flavia.jpg);
   width: 2000px;
   align-self: stretch;
   background-position: center;
