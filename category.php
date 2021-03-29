@@ -57,7 +57,6 @@ get_header();
 			?>
 			</div>
 
-
 	</main><!-- #main -->
 
 <?php
