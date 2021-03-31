@@ -29,7 +29,7 @@ get_header();
 		<div class="post-body">
 			<?php the_content(); ?>
 			<div class="post-end-info"><br />
-				<h6 class="post-subtitle"><?php echo the_author_link(); ?>h6>
+				<h6 class="post-subtitle"><?php echo the_author_link(); ?></h6>
 				<h6 class="post-subtitle"><?php $post_date = get_the_date( 'F j, Y' ); echo $post_date ?></h6>
 				<h6 class="post-subtitle"><?php the_category( ' ' ); ?></h6>
 			</div>

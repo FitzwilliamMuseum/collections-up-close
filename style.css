@@ -976,7 +976,7 @@ textarea {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 1.5em;
+	margin-bottom: 0.5em;
 }
 
 
@@ -1077,7 +1077,7 @@ textarea {
 
 
 body {
-  font-family: "Lora";
+  font-family: "Montserrat";
   font-size: 20px;
   line-height: 1.2;
   background-color: #fff;
@@ -1200,7 +1200,7 @@ h6 {
 }
 
 p, ul, ol {
-  font-family: "Lora";
+  font-family: "Montserrat";
   font-weight: 400;
   font-style: normal;
   color: #290A0B;
@@ -1209,7 +1209,7 @@ p, ul, ol {
 }
 
 td {
-	font-family: "Lora";
+	font-family: "Montserrat";
   font-weight: 400;
   font-style: normal;
   color: #290A0B;
@@ -1378,7 +1378,7 @@ p.card-text {
   /* 	font-family: Reforma1918;
 	font-weight: 500;
 	font-style: normal; */
-  font-family: "Lora";
+  font-family: "Montserrat";
   line-height: 105%;
   font-size: 14px;
   padding-top: 6px;
@@ -1527,6 +1527,11 @@ h6.post-tags {
 
 .post-body {
   max-width: 560px;
+	line-height: 1.25;
+}
+
+.post-body p {
+  font-size: 16px;
 }
 
 .post-image-section {
@@ -1534,9 +1539,8 @@ h6.post-tags {
   margin-bottom: 24px;
 }
 
-.wp-block-image figcaption {
-	margin-top: -48px;
-  margin-bottom: 0;
+.wp-block-image  {
+	margin-bottom: 0.6em;
 }
 
 figure {
@@ -1544,16 +1548,16 @@ figure {
 }
 
 figcaption {
-  height: 40px;
-  width: 200px;
-  text-align: right;
-  position: relative;
+  height: auto;
+  width: auto;
+  text-align: center;
+  /* position: relative;
   transform: translateX(-212px) translateY(-64px);
-  margin-top: -48px;
-	 font-size: 13px;
+  margin-top: -48px; */
+	 font-size: 15px;
 	 color: #A03335;
 	 line-height: 110%;
-	 font-weight: 500;
+	 font-weight: 400;
 }
 
 .wp-block-gallery figcaption {
