@@ -37,7 +37,7 @@
 		<div>
 	 <nav>
 		<a href="<?php echo get_home_url(); ?>" class="nav-highlighted">BLOG</a>
-		<a href="/about.html">ABOUT</a>
+		<a href="<?php echo get_home_url(); ?>/about">ABOUT</a>
 		<a href="#">SEARCH</a>
 		 <a href="https://beta.fitz.ms"><img src="<?php echo get_bloginfo('template_url') ?>/images/fitz_cambridge_logo_red_small_fill_80x80.jpg"></a>
 	 </nav>
