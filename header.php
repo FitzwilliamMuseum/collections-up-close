@@ -17,7 +17,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 
@@ -37,8 +37,8 @@
 		<div>
 	 <nav>
 		<a href="<?php echo get_home_url(); ?>" class="nav-highlighted">BLOG</a>
-		<a href="/about.html">ABOUT</a>
-		<a href="#">SEARCH</a>
+		<a href="<?php echo get_home_url(); ?>/about">ABOUT</a>
+		<a href="<?php echo get_home_url(); ?>/search">SEARCH</a>
 		 <a href="https://beta.fitz.ms"><img src="<?php echo get_bloginfo('template_url') ?>/images/fitz_cambridge_logo_red_small_fill_80x80.jpg"></a>
 	 </nav>
 			 </div>

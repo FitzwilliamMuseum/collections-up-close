@@ -12,17 +12,23 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-		<?php if ( have_posts() ) : ?>
+		<!-- Hero Section  -->
+		<div class="hero">
+		  <img src="<?php echo get_bloginfo('template_url') ?>/images/hero_logo.jpg" class="hero-logo">
+		  </div>
 
-			<header class="page-header">
-				<h1 class="page-title">
+
+
+		<?php if ( have_posts() ) : ?>
+			<div class="recent-posts-title">
+		 	 <h2>
 					<?php
 					/* translators: %s: search query. */
-					printf( esc_html__( 'Search Results for: %s', 'collections-up-close' ), '<span>' . get_search_query() . '</span>' );
+					printf( esc_html__( 'Results for: %s', 'collections-up-close' ), '<span>' . get_search_query() . '</span>' );
 					?>
-				</h1>
-			</header><!-- .page-header -->
-
+				</h2>
+			</div>
+			<div class="row recent-posts">
 			<?php
 			/* Start the Loop */
 			while ( have_posts() ) :
@@ -36,8 +42,12 @@ get_header();
 				get_template_part( 'template-parts/content', 'search' );
 
 			endwhile;
+			?> </div>
 
-			the_posts_navigation();
+			<div class="view-more-posts">
+				<h3><?php next_posts_link('View More','') ?></h3>
+			</div> <?php
+
 
 		else :
 
