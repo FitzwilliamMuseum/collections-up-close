@@ -9,27 +9,19 @@
 
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-
-		<?php if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php
-			collections_up_close_posted_on();
-			collections_up_close_posted_by();
-			?>
-		</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
-
-	<?php collections_up_close_post_thumbnail(); ?>
-
-	<div class="entry-summary">
-		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
-
-	<footer class="entry-footer">
-		<?php collections_up_close_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
+<div class="column">
+	<a href="<?php the_permalink(); ?>">
+		<div class="card">
+			<div class="card-image">
+				<?php the_post_thumbnail( 'medium_large' ); ?>
+			</div>
+			<div class="card-content">
+				<h5 class="card-title"><?php the_title(); ?></h5>
+				<h6 class="card-subtitle"><?php the_author(); ?></h6>
+				<h6 class="card-subtitle"><?php the_date(); ?></h6>
+				<?php the_excerpt(); ?>
+				<a href="<?php the_permalink(); ?>" class="card-link">Continue reading...</a>
+			</div>
+		</div>
+	</a>
+</div>
