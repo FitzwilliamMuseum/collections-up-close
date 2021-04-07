@@ -105,17 +105,20 @@
 
 <!--  Subscribe Section  -->
 	<div class="subscribe-section">
-<!--   <div class="subscribe-title"> -->
 		<h2>Subscribe</h2>
-<!--   </div> -->
-<!--     <div class="subscribe-subtitle"> -->
 		<h4>Sign up here to receive new posts straight to your email </h4>
-<!--   </div> -->
-	<form>
-					<input type="email" placeholder="Enter your email here...">
-					<input type="submit" value="Subscribe">
-				</form>
-</div>
+
+    <!-- Mailchimp for WordPress v4.8.3 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
+    <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-604" method="post" data-id="604" data-name="Subscribe" >
+      <div class="mc4wp-form-fields">
+          <input type="email" name="EMAIL" placeholder="Your email address" required />
+
+          <input type="submit" value="Sign up" />
+      </div>
+      <label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1617789358" /><input type="hidden" name="_mc4wp_form_id" value="604" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div>
+    </form>
+    <!-- / Mailchimp for WordPress Plugin -->
+  </div>
 
 	<!-- Footer Section -->
 <footer>
