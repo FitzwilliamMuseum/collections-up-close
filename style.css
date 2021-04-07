@@ -1122,6 +1122,7 @@ header h1 {
   font-size: 32px;
   color: #A03335;
   margin-left: 24px;
+	margin-bottom: 4px;
 }
 
 header nav {
@@ -1628,6 +1629,8 @@ footer a:hover {
   header h1 {
     font-size: 28px;
     margin-left: 0;
+		margin-bottom: 0px;
+		margin-top: 4px;
   }
 
   header nav a {
