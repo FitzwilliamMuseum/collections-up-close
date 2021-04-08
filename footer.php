@@ -123,7 +123,7 @@
 	<!-- Footer Section -->
 <footer>
 <div class="footer-logo">
-	<img src="<?php echo get_bloginfo('template_url') ?>/images/fitz_cambridge_logo_white_on_grey.jpg">
+	<img src="<?php echo get_bloginfo('template_url') ?>/images/footerfitzlogo.png">
 	</div>
 <div class="footer-text">
 	<p>The contents of these pages are copyright of The Fitzwilliam 		Museum, Cambridge, UK unless otherwise stated.</p>
