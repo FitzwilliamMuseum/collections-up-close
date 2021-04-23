@@ -20,7 +20,7 @@ get_header();
 
 	<!-- Hero Section  -->
 	<div class="hero">
-	  <img src="<?php echo get_bloginfo('template_url') ?>/images/hero_logo.jpg" class="hero-logo">
+	  <img src="<?php echo get_bloginfo('template_url') ?>/images/resized-hero-image.jpg" class="hero-logo">
 	  </div>
 
 
