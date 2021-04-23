@@ -1196,7 +1196,7 @@ h5 {
 }
 
 h6 {
-  font-size: 13px;
+  font-size: 14px;
   color: #A03335;
   line-height: 110%;
   font-weight: 500;
@@ -1374,7 +1374,11 @@ img.wp-post-image {
 	display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 366px
+  height: 280px
+}
+
+.card-content p {
+	font-size: 17px;
 }
 
 p.card-text {
