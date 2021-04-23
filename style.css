@@ -1658,6 +1658,7 @@ footer a:hover {
   .hero-logo {
 		margin-top: 20px;
   }
+}
 
 @media only screen and (max-width: 620px) {
   header h1 {
@@ -1757,5 +1758,5 @@ footer a:hover {
 }
 
 #wpadminbar {
-display: none;
+		display:none;
 }
