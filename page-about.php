@@ -29,7 +29,7 @@ get_header();
     Contact Us
   </h3>
   <p>
-    Flavia Ravaioli (<a href="#">fr306@cam.ac.uk</a>) and Helena Rodwell (<a href="#">hjr41@cam.ac.uk</a>)
+    <a href="mailto:fr306@cam.ac.uk">Flavia Ravaioli</a> and <a href="mailto:hjr41@cam.ac.uk">Helena Rodwell</a>
   </p>
 </div>
 
