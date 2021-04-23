@@ -1747,3 +1747,7 @@ footer a:hover {
     display: none;
   }
 }
+
+#wpadminbar {
+display: none;
+}
