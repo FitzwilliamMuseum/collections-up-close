@@ -1654,6 +1654,10 @@ footer a:hover {
 	padding: 40px;
 }
 
+body {
+ scrollbar-gutter: stable;
+}
+
 @media only screen and (max-width: 782px) {
   .hero-logo {
 		margin-top: 20px;
