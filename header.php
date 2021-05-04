@@ -39,7 +39,9 @@
 		<a href="<?php echo get_home_url(); ?>" class="nav-highlighted">BLOG</a>
 		<a href="<?php echo get_home_url(); ?>/about">ABOUT</a>
 		<a href="<?php echo get_home_url(); ?>/search">SEARCH</a>
-		 <a href="https://beta.fitz.ms"><img src="<?php echo get_bloginfo('template_url') ?>/images/headerfitzlogo.png"></a>
+		<?php if(! is_front_page()) {
+			?> <a href="https://beta.fitz.ms"><img src="<?php echo get_bloginfo('template_url') ?>/images/headerfitzlogo.png"></a>
+		<?php } ?>
 	 </nav>
 			 </div>
 	</header>

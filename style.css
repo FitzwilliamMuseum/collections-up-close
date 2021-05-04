@@ -1109,6 +1109,7 @@ header {
 #index-header {
   opacity: 0;
   transition: 0.6s;
+	margin: 15px 16px;
 }
 
 header img {
@@ -1131,6 +1132,7 @@ header nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+	margin-right: 24px;
 }
 
 a {
@@ -1149,7 +1151,7 @@ header nav a {
   font-style: normal;
   color: #A03335;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   margin-left: 16px;
   text-transform: uppercase;
   font-weight: 700;
@@ -1424,6 +1426,10 @@ a.card-link {
   background-color: #f3f3f3;
   width: 100vw;
   height: 420px;
+}
+
+.tag-cloud-link {
+	padding: 4px 8px;
 }
 
 .tag-cloud-title {
