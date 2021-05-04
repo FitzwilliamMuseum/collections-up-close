@@ -58,9 +58,7 @@ get_header();
 			?>
 			</div>
 
-						<div class="view-more-posts">
-							<h3><?php next_posts_link('View More','') ?></h3>
-						</div>
+<?php wpbeginner_numeric_posts_nav(); ?>
 
 
 	</main><!-- #main -->
