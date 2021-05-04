@@ -57,6 +57,9 @@ get_header();
 			?>
 			</div>
 
+			<?php wpbeginner_numeric_posts_nav(); ?>
+
+
 	</main><!-- #main -->
 
 <?php
