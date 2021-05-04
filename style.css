@@ -1305,6 +1305,7 @@ td {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+	align-items: stretch;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -1335,7 +1336,7 @@ img.wp-post-image {
   border-radius: 4px;
   z-index: -1;
   transition: transform 0.3s, box-shadow 0.3s;
-  min-height: 418px;
+  min-height: 500px;
 }
 
 .card:active {
@@ -1374,7 +1375,7 @@ img.wp-post-image {
 	display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 280px
+  min-height: 328px
 }
 
 .card-content p {
@@ -1654,10 +1655,15 @@ footer a:hover {
 	padding: 40px;
 }
 
+body {
+ scrollbar-gutter: stable;
+}
+
 @media only screen and (max-width: 782px) {
   .hero-logo {
 		margin-top: 20px;
   }
+}
 
 @media only screen and (max-width: 620px) {
   header h1 {
@@ -1757,5 +1763,5 @@ footer a:hover {
 }
 
 #wpadminbar {
-display: none;
+		display:none;
 }
