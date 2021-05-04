@@ -38,7 +38,7 @@
       <div class="category-card">
         <a href="<?php echo get_home_url(); ?>/category/applied-arts">
         <div class="category-card-image">
-          <img src="<?php echo get_bloginfo('template_url') ?>/images/category-2.jpg" class="card-image-image">
+          <img src="<?php echo get_bloginfo('template_url') ?>/images/large_M_359_1985_2_201408_jas244_mas.jpg" class="card-image-image">
         </div>
         <div class="category-card-content">
           <h3 class="category-card-title">Applied Arts</h3>
