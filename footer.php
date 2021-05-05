@@ -130,6 +130,9 @@
 	<p>View our <a href="https://www.fitzmuseum.cam.ac.uk/website/tou">Terms of Use</a> and <a href="https://www.fitzmuseum.cam.ac.uk/website/cookiepolicy">Privacy Policy</a></p>
 	<p>Collections Up Close / Proudly powered by WordPress</p>
 	</div>
+  <div class="footer-socials">
+    <h1><a href="https://www.instagram.com/fitzmuseum_uk/?hl=en"><i class="fab fa-instagram-square"></i></a> <a href="https://www.facebook.com/fitzwilliammuseum/"><i class="fab fa-facebook-square"></i></a> <a href="https://twitter.com/FitzMuseum_UK"><i class="fab fa-twitter-square"></i></a></h1>
+  </div>
 </footer>
 
 </div>
