@@ -1293,7 +1293,7 @@ td {
 }
 
 .hero-logo {
-  margin-top: 36px;
+  margin-top: 68px;
   width: 100vw;
 }
 
@@ -1727,6 +1727,10 @@ body {
 		margin-top: 4px;
   }
 
+	header nav {
+		padding: 6px;
+	}
+
   header nav a {
     font-size: 10px;
   }
@@ -1749,7 +1753,7 @@ body {
   }
 
   .hero-logo {
-    margin-top: 12px;
+    margin-top: 24px;
     width: 100vw;
   }
 
